@@ -1,0 +1,1 @@
+execute as @a[scores={onEndTraderTrade=1..}] run function void.trader:end_trader/after_trade

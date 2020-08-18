@@ -1,0 +1,1 @@
+execute as @a if score @s dragonKilled matches 1..999 run function void.trader:ender_dragon/spawn_egg

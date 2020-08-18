@@ -1,0 +1,1 @@
+execute at @s unless block ~ ~-1 ~ air unless entity @s[nbt={Dimension:"the_nether"}] run setblock ~ ~ ~ minecraft:water[level=1] keep

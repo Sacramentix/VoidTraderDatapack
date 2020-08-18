@@ -1,0 +1,1 @@
+scoreboard objectives add dragonKilled minecraft.killed:minecraft.ender_dragon

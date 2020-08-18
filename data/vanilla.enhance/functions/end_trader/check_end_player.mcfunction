@@ -1,0 +1,1 @@
+execute as @a[nbt={Dimension:"minecraft:the_end"}] run function void.trader:end_trader/check_item_frame

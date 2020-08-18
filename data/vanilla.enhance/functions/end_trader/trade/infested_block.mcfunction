@@ -1,0 +1,9 @@
+scoreboard players set $phi.rng.range.min phitemp 0
+scoreboard players set $phi.rng.range.max phitemp 600
+function phi.rng:uuid_range_uniform
+execute if score $phi.rng.value phitemp matches 0..99 run data modify entity @s Offers.Recipes append value {maxUses:8,xp:10,priceMultiplier:0.3f,buy:{id:"minecraft:emerald_block",Count:3b},sell:{id:"minecraft:infested_chiseled_stone_bricks",Count:16b}}
+execute if score $phi.rng.value phitemp matches 100..199 run data modify entity @s Offers.Recipes append value {maxUses:8,xp:10,priceMultiplier:0.3f,buy:{id:"minecraft:emerald_block",Count:3b},sell:{id:"minecraft:infested_cobblestone",Count:16b}}
+execute if score $phi.rng.value phitemp matches 200..299 run data modify entity @s Offers.Recipes append value {maxUses:8,xp:10,priceMultiplier:0.3f,buy:{id:"minecraft:emerald_block",Count:3b},sell:{id:"minecraft:infested_cracked_stone_bricks",Count:16b}}
+execute if score $phi.rng.value phitemp matches 300..399 run data modify entity @s Offers.Recipes append value {maxUses:8,xp:10,priceMultiplier:0.3f,buy:{id:"minecraft:emerald_block",Count:3b},sell:{id:"minecraft:infested_mossy_stone_bricks",Count:16b}}
+execute if score $phi.rng.value phitemp matches 400..499 run data modify entity @s Offers.Recipes append value {maxUses:8,xp:10,priceMultiplier:0.3f,buy:{id:"minecraft:emerald_block",Count:3b},sell:{id:"minecraft:infested_stone",Count:16b}}
+execute if score $phi.rng.value phitemp matches 500..600 run data modify entity @s Offers.Recipes append value {maxUses:8,xp:10,priceMultiplier:0.3f,buy:{id:"minecraft:emerald_block",Count:3b},sell:{id:"minecraft:infested_stone_bricks",Count:16b}}

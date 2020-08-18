@@ -1,0 +1,2 @@
+execute at @s run execute as @e[type=villager,nbt={Tags:["endTrader"]},distance=..5] run tellraw @a[distance=..7] [{"text":"The void trader have "},{"score":{"name":"@s","objective":"tradexp"},"color":"gold","bold":true},{"text":"  Xp","color":"gold","bold":true}]
+scoreboard players reset @s onEndTraderTrade
