@@ -1,1 +1,1 @@
-execute as @a[nbt={Inventory:[{Slot:-106b,tag:{Gem:Enchant}}]}] run function void.trader:item/enchant_gem/check_item_enchant
+execute as @a[predicate=void.trader:item/offhand_gem] run function void.trader:item/enchant_gem/check_item_enchant
