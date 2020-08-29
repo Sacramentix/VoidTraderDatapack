@@ -1,0 +1,46 @@
+{
+    "pools": [
+      {
+        "rolls": 2,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:shulker_shell",
+            "weight": 1
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:reference",
+            "name": "void.trader:player/find_void_trader"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:shulker_shell",
+            "weight": 1,
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance_with_looting",
+                "chance": 0.5,
+                "looting_multiplier": 0.0625
+              }
+            ]
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:reference",
+              "name": "void.trader:player/find_void_trader"
+            }
+          }
+        ]
+      }
+    ]
+  }

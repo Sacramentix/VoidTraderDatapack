@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:purple_stained_glass"
+      },
+      "title": "Trader at the End of the Game",
+      "description": "Find a void trader in an end ship.",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "minecraft:end/find_end_city",
+    "rewards": {
+      "function": "void.trader:reward/find_void_trader"
+    },
+    "criteria": {
+      "void.trader:find_void_trader": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

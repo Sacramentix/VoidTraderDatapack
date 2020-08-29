@@ -1,0 +1,1 @@
+execute as @a[predicate=void.trader:player/in_the_end] run function void.trader:void_trader/spawn/check_item_frame

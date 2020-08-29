@@ -1,0 +1,2 @@
+execute at @s run summon villager ~ ~ ~ {CustomNameVisible:0b,CustomName:'{"text":"Void trader","color":"dark_purple"}',Tags:["voidTrader"],Xp:0,ArmorItems:[{},{},{},{id:"minecraft:purple_stained_glass",Count:1b}],VillagerData:{profession:"minecraft:cleric",type:"minecraft:plains",level:5}}
+execute at @s run execute as @e[type=villager,tag=voidTrader,sort=nearest,limit=1] run function void.trader:void_trader/spawn/after_summon

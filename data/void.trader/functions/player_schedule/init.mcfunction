@@ -1,0 +1,1 @@
+function void.trader:player_schedule/init/infuse_animation

@@ -1,1 +1,0 @@
-execute as @a[scores={onEndTraderTalk=1..}] run function void.trader:end_trader/after_talk

@@ -2,15 +2,11 @@
 	"condition": "minecraft:entity_properties",
 	"entity": "this",
 	"predicate": {
-		"type": "minecraft:player",
-		"targeted_entity": {
-			"equipment": {
-				"offhand": {
-					"item": "minecraft:nether_star",
-					"tag": "gem:enchant",
-					"count": 1
-				}
-			}
+	  "type": "minecraft:player",
+	  "equipment": {
+		"offhand": {
+		  "nbt": "{Void.Trader.Gem:Enchant}"
 		}
+	  }
 	}
-}
+  }

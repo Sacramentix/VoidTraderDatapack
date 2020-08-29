@@ -1,3 +1,3 @@
 function void.trader:item/enchant_gem/before_infuse
 execute as @s[level=100..,nbt={Inventory:[{Slot:0b,tag:{Enchantments:[{id:"minecraft:efficiency",lvl:5s}]}},{Slot:-106b,tag:{Enchantments:[{id:"minecraft:efficiency"}]}}]}] run function void.trader:item/enchant_gem/infuse_efficiency
-execute as @s[nbt={Inventory:[{Slot:0b,tag:{Enchantments:[{id:"minecraft:looting",lvl:3s}]}},{Slot:-106b,tag:{Enchantments:[{id:"minecraft:looting"}]}}]}] run function void.trader:item/enchant_gem/infuse_looting
+execute as @s[level=200..,nbt={Inventory:[{Slot:0b,tag:{Enchantments:[{id:"minecraft:looting",lvl:3s}]}},{Slot:-106b,tag:{Enchantments:[{id:"minecraft:looting"}]}}]}] run function void.trader:item/enchant_gem/infuse_looting
