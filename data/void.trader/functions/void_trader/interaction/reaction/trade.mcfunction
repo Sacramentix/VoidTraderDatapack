@@ -8,3 +8,4 @@ execute if score $phi.rng.value phitemp matches 750..1000 run tellraw @s [{"sele
 execute store result score @e[predicate=void.trader:entity/void_trader,sort=nearest,limit=1] tradeXP run data get entity @e[predicate=void.trader:entity/void_trader,sort=nearest,limit=1] Xp
 title @s actionbar [{"text":"The "},{"selector":"@e[predicate=void.trader:entity/void_trader,sort=nearest,limit=1]"},{"text":" have "},{"score":{"name":"@e[predicate=void.trader:entity/void_trader,sort=nearest,limit=1]","objective":"tradeXP"},"color":"gold"},{"text":"XP","color":"gold"}]
 scoreboard players reset @s voidTraderTrade
+execute as @e[predicate=void.trader:entity/void_trader,sort=nearest,limit=1] run function void.trader:void_trader/level_up/store_xp

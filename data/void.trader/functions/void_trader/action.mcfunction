@@ -1,1 +1,2 @@
-function void.trader:void_trader/level_up/store_xp
+function void.trader:void_trader/interaction/on/zombie_nearby
+function void.trader:void_trader/interaction/reaction/ender_particle

@@ -1,0 +1,1 @@
+function void.trader:entity_schedule/init/infuse_animation

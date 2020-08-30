@@ -1,1 +1,1 @@
-execute as @a[scores={voidTraderTalk=1..}] run function void.trader:void_trader/interaction/after/talk
+execute as @a[scores={voidTraderTalk=1..}] run function void.trader:void_trader/interaction/reaction/talk
